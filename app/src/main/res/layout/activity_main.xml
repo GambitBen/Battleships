@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_game_stage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="game stage..." />
+
+        <TextView
+            android:id="@+id/text_view_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="message... well a message can be pretty long and span two lines" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/layout_top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Board" />
+
+        <GridView
+            android:id="@+id/gridViewBoard"
+            style="@style/StyleGridViewBoard"
+            android:layout_height="254dp"></GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_middle"
+        android:orientation="horizontal">
+
+        <GridView
+            android:id="@+id/battleship1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></GridView>
+
+        <GridView
+            android:id="@+id/battleship2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></GridView>
+
+        <GridView
+            android:id="@+id/battleship3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></GridView>
+
+        <GridView
+            android:id="@+id/battleship4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></GridView>
+
+        <GridView
+            android:id="@+id/battleship5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></GridView>
+
+        <GridView
+            android:id="@+id/battleship6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></GridView>
+
+        <GridView
+            android:id="@+id/battleship7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></GridView>
+
+        <GridView
+            android:id="@+id/battleship8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></GridView>
+
+        <GridView
+            android:id="@+id/battleship9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></GridView>
+
+        <GridView
+            android:id="@+id/battleship10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></GridView>
+
+    </LinearLayout >
+
+</RelativeLayout>

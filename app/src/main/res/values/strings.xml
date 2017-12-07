@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Battleships</string>
+
+
+    <string name="button_easy">Easy</string>
+    <string name="button_normal">Normal</string>
+    <string name="button_hard">Hard</string>
+
+    <string name="cell_status_vacant">vacant</string>
+    <string name="cell_status_occupied">occupied</string>
+    <string name="cell_status_hit">hit</string>
+    <string name="cell_status_missed">missed</string>
+</resources>
